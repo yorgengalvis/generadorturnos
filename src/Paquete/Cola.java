@@ -21,6 +21,7 @@ public class Cola<E> {
     public boolean isEmpty(){
         return principio==null;
     }
+   
     
     public E desencolar()throws Exception{
        E resultado;
